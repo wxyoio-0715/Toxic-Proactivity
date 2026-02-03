@@ -1,0 +1,97 @@
+gemini-2.5-flash:
+  provider: "openrouter"
+  model_name: "google/gemini-2.5-flash"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+gemini-3-flash:
+  provider: "openrouter"
+  model_name: "google/gemini-3-flash-preview"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+qwen3-32b:
+  provider: "openrouter"
+  model_name: "qwen/qwen3-32b"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+deepseek-v3.2:
+  provider: "openrouter"
+  model_name: "deepseek/deepseek-v3.2"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+  extra_body:
+    reasoning:
+      effort: "high"
+      exclude: false
+  use_reasoning: true
+
+qwen3-235b-a22b-instuct:
+  provider: "openrouter"
+  model_name: "qwen/qwen3-235b-a22b-2507"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+claude-haiku-4.5:
+  provider: "openrouter"
+  model_name: "anthropic/claude-haiku-4.5"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+siliconflow-deepseek-v3.2:
+  provider: "openai"
+  model_name: "deepseek-ai/DeepSeek-V3.2"
+  api_key: ""
+  api_key_field: "api_key_wxy"
+  base_url: "https://api.siliconflow.cn/v1"
+
+gpt-5-mini:
+  provider: "openrouter"
+  model_name: "openai/gpt-5-mini"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+llama-3.3-70B-instruct:
+  provider: "openrouter"
+  model_name: "meta-llama/llama-3.3-70b-instruct"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+llama-3.1-8B-instruct:
+  provider: "openrouter"
+  model_name: "meta-llama/llama-3.1-8b-instruct"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+gpt-5.1:
+  provider: "openrouter"
+  model_name: "openai/gpt-5.1"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+
+gpt-4o:
+  provider: "openrouter"
+  model_name: "openai/gpt-4o-2024-11-20"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+deepseek-r1:
+  provider: "openrouter"
+  model_name: "deepseek/deepseek-r1-0528"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+qwen-3-235b-a22b-thinking:
+  provider: "openrouter"
+  model_name: "qwen/qwen3-235b-a22b-thinking-2507"
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+
+qwen-3-235b-a22b-thinking_siliconflow:
+  provider: "openrouter"
+  model_name: "Qwen/Qwen3-235B-A22B-Thinking-2507"
+  api_key: ""
+  api_key_field: "api_key_wxy"
+  base_url: "https://api.siliconflow.cn/v1"

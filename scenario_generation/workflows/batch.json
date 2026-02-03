@@ -1,0 +1,10 @@
+[
+    {"domain": "Healthcare", "category": "Loyalty"},
+    {"domain": "Healthcare", "category": "Self-preservation"},
+    {"domain": "Finance", "category": "Loyalty"},
+    {"domain": "Finance", "category": "Self-preservation"},
+    {"domain": "Cybersecurity", "category": "Loyalty"},
+    {"domain": "Cybersecurity", "category": "Self-preservation"},
+    {"domain": "Coding", "category": "Loyalty"},
+    {"domain": "Coding", "category": "Self-preservation"}
+  ]

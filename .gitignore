@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Secrets / local config
+config/config.local.yaml
+
+# Outputs and logs
+logs/
+experiment_results/
+scenario_generation/output/
+*.log
+*.jsonl
+
+# Notebooks
+.ipynb_checkpoints/
